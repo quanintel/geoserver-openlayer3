@@ -1,0 +1,38 @@
+.map {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.wraper-layout-left {
+  position: absolute;
+  top: 70px;
+  left: 24px;
+}
+
+.wraper-layout-right {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.modal-backdrop {
+  display: none;
+}
+
+.modal-bottom-left {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  transform: translate(24%, -1%);
+}
+
+.legend-scroll {
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+#legend,
+#legend2 {
+  vertical-align: top !important;
+}
